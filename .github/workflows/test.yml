@@ -153,7 +153,7 @@ jobs:
   #     - name: Setup Node.js 24.x
   #       uses: actions/setup-node@v5
   #       with:
-  #         node-version: 24.x
+  #         node-version: 24.22.1
   #         cache: "pnpm"
 
   #     - name: Install Rust (rust-toolchain.toml)
@@ -253,7 +253,7 @@ jobs:
 #       - name: Setup Node.js 24.x
 #         uses: actions/setup-node@v5
 #         with:
-#           node-version: 24.x
+#           node-version: 24.22.1
 #           cache: "pnpm"
 
 #       - name: Install Rust (rust-toolchain.toml)
