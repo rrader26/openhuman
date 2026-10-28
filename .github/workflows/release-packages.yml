@@ -173,7 +173,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
-          node-version: 24.x
+          node-version: 24.22.1
           registry-url: https://registry.npmjs.org
           package-manager-cache: false
       - name: Set version and publish
@@ -245,7 +245,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
-          node-version: 24.x
+          node-version: 24.22.1
       - name: Wait for npm propagation, then install
         run: |
           VERSION="${{ github.event.release.tag_name }}"

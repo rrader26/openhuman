@@ -44,7 +44,7 @@ jobs:
         if: steps.gate.outputs.present == 'true'
         uses: actions/setup-node@v5
         with:
-          node-version: 24.x
+          node-version: 24.22.1
       - name: Install Rust (rust-toolchain.toml)
         if: steps.gate.outputs.present == 'true'
         uses: dtolnay/rust-toolchain@1.93.0
